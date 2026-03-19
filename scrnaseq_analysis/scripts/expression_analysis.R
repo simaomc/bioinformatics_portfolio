@@ -130,7 +130,7 @@ classify_fc(2)
 classify_fc(3)
 
 ############################################################
-# 🧪 8. SCATTER PLOTS (PUBLICATION STYLE)
+# 🧪 8. SCATTER PLOTS 
 ############################################################
 
 t <- 0.25
@@ -176,7 +176,7 @@ ggsave("../results/scatter_panel.png",
        final_plot, width = 12, height = 10, dpi = 300)
 
 ############################################################
-# 🔥 9. HEATMAP (OPTIONAL)
+# 🔥 9. HEATMAP 
 ############################################################
 
 mat <- df[, grep("RNA", colnames(df))]
